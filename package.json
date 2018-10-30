@@ -4,7 +4,7 @@
   "description": "Example of cypress with cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
+    "test": "cypress run --reporter mochawesome --reporter-options reportDir='./cypress/reports',overwrite=true",
     "cypress:open": "cypress run"
   },
   "repository": {
@@ -24,6 +24,9 @@
   "homepage": "https://github.com/TheBrainFamily/cypress-cucumber-example#readme",
   "dependencies": {
     "cypress": "^3.1.0",
-    "cypress-cucumber-preprocessor": "^1.6.0"
+    "cypress-cucumber-preprocessor": "^1.6.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1",
+    "mochawesome-report-generator": "^3.1.4"
   }
 }
