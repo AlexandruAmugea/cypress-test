@@ -4,4 +4,4 @@ Feature: The Facebook
 
   Scenario: Opening a social network page
     Given I open Facebook page
-    Then I see "Facebook" in the title
+    Then I see "Facebooks" in the title

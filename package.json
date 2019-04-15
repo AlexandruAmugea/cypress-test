@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run --reporter mochawesome --reporter-options reportDir='./cypress/reports',overwrite=true",
-    "cypress:open": "cypress run"
+    "cypress:open": "cypress run --browser chrome"
   },
   "repository": {
     "type": "git",
